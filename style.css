@@ -1,0 +1,48 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	background: url(glasses.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+.row {
+	justify-content: center;
+	position: relative;
+	right: 40px;
+}
+
+h1 {
+	margin-top: 200px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+hr {
+	max-width: 65px;
+	border-width: 3px;
+	border-color: #F05F44;
+	margin-top: 175px;
+}
+
+hr, .button {
+
+}
+
+.btn-light {
+	font-size: 200%;
+	font-weight: bold;
+	border-radius: 300px;
+}
+
+.btn:hover {
+	transition: 0.5s;
+	transform: scale(1.1);
+}
+
+
+
+
